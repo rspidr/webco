@@ -23,7 +23,7 @@ public static float graceperiodms = 175f;
 // time in milliseconds to keep recent catch records in memory
 public static float catchhistoryms = 350f;
 ```
-## BUILDING FROM SOURCE
+## building from source
 1. open `webco.csproj` in any text editor.
 2. change the `<GameDir>` property to your game installation path:
 ```xml
@@ -31,5 +31,5 @@ public static float catchhistoryms = 350f;
 ```
 3. run `dotnet build` in your terminal.
 4. the compiled `webco.dll` will be output into the project folder.
-## LICENSE
+## license
 mit license. free to use and modify.
