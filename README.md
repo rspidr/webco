@@ -1,4 +1,4 @@
-# WEBCO
+# webco
 a harmony patch for RecRoom dodgeball networking that fixes catch and hit race conditions through buffered event reconciliation.
 ## OVERVIEW
 in networked dodgeball games, latency can cause a hit event (`RpcMasterRequestPlayerOut`) to arrive before or simultaneously with a successful catch event (`RpcMasterRequestPlayerCatch` / `RpcOnPlayerCatch`). this causes players who caught the ball to still get out by mistake.
